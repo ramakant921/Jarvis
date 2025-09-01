@@ -8,11 +8,11 @@ def wish_me():
     """Greet the user based on the current time."""
     hour = int(datetime.datetime.now().hour)
     if 0 <= hour < 12:
-        speak("Good Morning, Zaalos!")
+        speak("Good Morning, sir!")
     elif 12 <= hour < 18:
-        speak("Good Afternoon, Zaalos!")
+        speak("Good Afternoon, sir!")
     else:
-        speak("Good Evening, Zaalos!")
+        speak("Good Evening, sir!")
 
 #don't know what to do with the param hehehe
 def listening_animated_text(animation_event):
